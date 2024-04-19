@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Shoot" ID="{3E5166B5-527D-4163-BB56-BCA3F403E586}">
+					<ChildrenList>
+						<Action Name="" ID="{90A2CC82-EBB8-42EC-BB85-330E880EB8CD}" ShortID="782704527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="677787__carlfnf__pistol-shoot" ID="{009465E2-8B50-43E1-8FC8-98479C40FF71}" WorkUnitID="{2641D4EF-4811-4C41-94A2-17D1240810BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Background" ID="{A838256D-1D2D-4763-88B6-F2EB5ED891CC}">
+					<ChildrenList>
+						<Action Name="" ID="{67D50126-2216-4857-A181-C78F0E1B369F}" ShortID="308821527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Playlist Container" ID="{52BAD611-BA89-4123-B060-4A4D0E9302EE}" WorkUnitID="{6B6C20C7-AE86-423D-B976-E2C2EEAA805B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Buff" ID="{828FB0FD-4617-48F8-A5E3-D8EA0F218B9D}">
+					<ChildrenList>
+						<Action Name="" ID="{07181BAA-B77D-488A-B6F7-A4AC28C2671D}" ShortID="73387902">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="531087__ryusa__magic-spell-buff-bell-sparkle-reverb" ID="{BAFB4AC1-FF92-473F-A9FE-A4AB43DF3D23}" WorkUnitID="{2641D4EF-4811-4C41-94A2-17D1240810BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Debuff" ID="{DBF5CAEA-B832-41A7-B56F-FBF454D89BE9}">
+					<ChildrenList>
+						<Action Name="" ID="{3F08968A-A365-4260-A52C-5668AB929CE6}" ShortID="256360867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1408__sleep__string_whip" ID="{709997F0-84C5-4B98-AB64-189C4A115051}" WorkUnitID="{2641D4EF-4811-4C41-94A2-17D1240810BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dash" ID="{6653F3B4-5E1E-4FDF-B4D0-D2F66194BD53}">
+					<ChildrenList>
+						<Action Name="" ID="{C08DEFF8-3F29-4761-A3DD-A4E87C3BCDAB}" ShortID="492228589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="682465__supersouper__short-woosh" ID="{A448F5F2-296A-4D3A-ADE6-8AD14F13253D}" WorkUnitID="{2641D4EF-4811-4C41-94A2-17D1240810BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

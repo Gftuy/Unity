@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B287FC8-9B40-4E2D-B379-84FE2C84BDFD}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9B287FC8-9B40-4E2D-B379-84FE2C84BDFD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank" ID="{83D153A3-5D51-4A43-A16B-D2C87DA52FE2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Shoot" ID="{3E5166B5-527D-4163-BB56-BCA3F403E586}" WorkUnitID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Debuff" ID="{DBF5CAEA-B832-41A7-B56F-FBF454D89BE9}" WorkUnitID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Background" ID="{A838256D-1D2D-4763-88B6-F2EB5ED891CC}" WorkUnitID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Buff" ID="{828FB0FD-4617-48F8-A5E3-D8EA0F218B9D}" WorkUnitID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dash" ID="{6653F3B4-5E1E-4FDF-B4D0-D2F66194BD53}" WorkUnitID="{599D2D88-E464-4859-828F-A8CA3A33E2C8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

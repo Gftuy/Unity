@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B6C20C7-AE86-423D-B976-E2C2EEAA805B}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{6B6C20C7-AE86-423D-B976-E2C2EEAA805B}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="New Music Playlist Container" ID="{52BAD611-BA89-4123-B060-4A4D0E9302EE}" ShortID="964998954">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C9197E-648F-4690-B922-C7093378E7D6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin" ID="{B983A010-16F7-4554-B3C1-EAE80E952C57}" ShortID="1001042466">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="59440"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C9197E-648F-4690-B922-C7093378E7D6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin" ID="{6408D219-8CDE-4EA0-A2D3-FA5D4633984D}" ShortID="926605505">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin" ID="{E79AA8EE-5673-4370-B5E1-5B840DF98427}">
+											<Language>SFX</Language>
+											<AudioFile>685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062411435"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E18759B5-9806-489D-BB82-11FEF97633DB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A1E0BAF8-4B08-406F-92CC-28031FEFAEC7}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin" ID="{1D124714-5523-49E4-B337-7FAC03CA8B66}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="59440"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin" ID="{E79AA8EE-5673-4370-B5E1-5B840DF98427}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{7BC91C7A-EE29-4D0C-A7D2-DA5D70CA4526}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F3650C99-DD9E-450B-B556-1564A1C7617A}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="59440"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{968A04E8-2C42-4956-98DB-1C3F0C330892}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{99F24D6E-0B99-413C-B2E6-07ED51AF2B2B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{A37EDF75-0939-4A87-90BD-635B710CA206}" ShortID="1043717902">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{F2BD2064-3889-402D-833A-3B53D0769D6E}" ShortID="1073261572">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin" ID="{B983A010-16F7-4554-B3C1-EAE80E952C57}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

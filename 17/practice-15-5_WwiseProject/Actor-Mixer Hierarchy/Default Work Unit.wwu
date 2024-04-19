@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2641D4EF-4811-4C41-94A2-17D1240810BF}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2641D4EF-4811-4C41-94A2-17D1240810BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="677787__carlfnf__pistol-shoot" ID="{009465E2-8B50-43E1-8FC8-98479C40FF71}" ShortID="324736405">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C9197E-648F-4690-B922-C7093378E7D6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="677787__carlfnf__pistol-shoot" ID="{AB310F3D-8015-4496-971C-E1C8449F02DD}">
+							<Language>SFX</Language>
+							<AudioFile>677787__carlfnf__pistol-shoot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="243053137"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="677787__carlfnf__pistol-shoot" ID="{AB310F3D-8015-4496-971C-E1C8449F02DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="531087__ryusa__magic-spell-buff-bell-sparkle-reverb" ID="{BAFB4AC1-FF92-473F-A9FE-A4AB43DF3D23}" ShortID="812198220">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C9197E-648F-4690-B922-C7093378E7D6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="531087__ryusa__magic-spell-buff-bell-sparkle-reverb" ID="{54B97D47-E57A-4852-8052-73B57D09A791}">
+							<Language>SFX</Language>
+							<AudioFile>531087__ryusa__magic-spell-buff-bell-sparkle-reverb.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="597618354"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="531087__ryusa__magic-spell-buff-bell-sparkle-reverb" ID="{54B97D47-E57A-4852-8052-73B57D09A791}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="1408__sleep__string_whip" ID="{709997F0-84C5-4B98-AB64-189C4A115051}" ShortID="986219399">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C9197E-648F-4690-B922-C7093378E7D6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="1408__sleep__string_whip" ID="{D1596C98-FFE7-43EB-B4BC-C5D44856A279}">
+							<Language>SFX</Language>
+							<AudioFile>1408__sleep__string_whip.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="943770075"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="1408__sleep__string_whip" ID="{D1596C98-FFE7-43EB-B4BC-C5D44856A279}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="682465__supersouper__short-woosh" ID="{A448F5F2-296A-4D3A-ADE6-8AD14F13253D}" ShortID="326152089">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C9197E-648F-4690-B922-C7093378E7D6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{03B75B84-12BD-4068-B52F-248AB2530E3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="682465__supersouper__short-woosh" ID="{C94D85C7-AE9B-4A4E-9CF2-FA6895F5E53A}">
+							<Language>SFX</Language>
+							<AudioFile>682465__supersouper__short-woosh.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="181238788"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="682465__supersouper__short-woosh" ID="{C94D85C7-AE9B-4A4E-9CF2-FA6895F5E53A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

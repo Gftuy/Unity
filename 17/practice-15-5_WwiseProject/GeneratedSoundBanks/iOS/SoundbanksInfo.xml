@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/iOS</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E8E022E-F93B-AF77-D4BA-F707B5BC1400}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{A2951FC9-A22B-C862-8E43-831F1B4C95DF}">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<Media>
+				<File Id="181238788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>682465__supersouper__short-woosh.wav</ShortName>
+					<CachePath>SFX/682465__supersouper__short-woosh_10C4C929.wem</CachePath>
+				</File>
+				<File Id="243053137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>677787__carlfnf__pistol-shoot.wav</ShortName>
+					<CachePath>SFX/677787__carlfnf__pistol-shoot_10C4C929.wem</CachePath>
+				</File>
+				<File Id="597618354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>531087__ryusa__magic-spell-buff-bell-sparkle-reverb.wav</ShortName>
+					<CachePath>SFX/531087__ryusa__magic-spell-buff-bell-sparkle-reverb_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943770075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1408__sleep__string_whip.wav</ShortName>
+					<CachePath>SFX/1408__sleep__string_whip_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1062411435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin.wav</ShortName>
+					<CachePath>SFX/685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3650723969" Name="Background" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1062411435"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1612179606" Name="Buff" DurationType="OneShot" DurationMin="1.9853061" DurationMax="1.9853061">
+					<MediaRefs>
+						<MediaRef Id="597618354"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1942692385" Name="Dash" DurationType="OneShot" DurationMin="0.3271882" DurationMax="0.3271882">
+					<MediaRefs>
+						<MediaRef Id="181238788"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="712408855" Name="Debuff" DurationType="OneShot" DurationMin="1.077551" DurationMax="1.077551">
+					<MediaRefs>
+						<MediaRef Id="943770075"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3038207054" Name="Shoot" DurationType="OneShot" DurationMin="1.0038549" DurationMax="1.0038549">
+					<MediaRefs>
+						<MediaRef Id="243053137"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1A682616-7B09-AD9C-C84F-3D45385C2229}</FileHash>
+</SoundBanksInfo>

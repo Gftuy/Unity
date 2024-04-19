@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	712408855	Debuff			\Default Work Unit\Debuff	
+	1612179606	Buff			\Default Work Unit\Buff	
+	1942692385	Dash			\Default Work Unit\Dash	
+	3038207054	Shoot			\Default Work Unit\Shoot	
+	3650723969	Background			\Default Work Unit\Background	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	181238788	682465__supersouper__short-woosh	C:\Users\Farm\Desktop\Skillbox\Unity-Midlle - Skillbox\Practice 15.5\Practice 15.5\practice-15-5\practice-15-5_WwiseProject\.cache\Mac\SFX\682465__supersouper__short-woosh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\682465__supersouper__short-woosh		28954
+	243053137	677787__carlfnf__pistol-shoot	C:\Users\Farm\Desktop\Skillbox\Unity-Midlle - Skillbox\Practice 15.5\Practice 15.5\practice-15-5\practice-15-5_WwiseProject\.cache\Mac\SFX\677787__carlfnf__pistol-shoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\677787__carlfnf__pistol-shoot		177176
+	597618354	531087__ryusa__magic-spell-buff-bell-sparkle-reverb	C:\Users\Farm\Desktop\Skillbox\Unity-Midlle - Skillbox\Practice 15.5\Practice 15.5\practice-15-5\practice-15-5_WwiseProject\.cache\Mac\SFX\531087__ryusa__magic-spell-buff-bell-sparkle-reverb_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\531087__ryusa__magic-spell-buff-bell-sparkle-reverb		350304
+	943770075	1408__sleep__string_whip	C:\Users\Farm\Desktop\Skillbox\Unity-Midlle - Skillbox\Practice 15.5\Practice 15.5\practice-15-5\practice-15-5_WwiseProject\.cache\Mac\SFX\1408__sleep__string_whip_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\1408__sleep__string_whip		190176
+	1062411435	685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin	C:\Users\Farm\Desktop\Skillbox\Unity-Midlle - Skillbox\Practice 15.5\Practice 15.5\practice-15-5\practice-15-5_WwiseProject\.cache\Mac\SFX\685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin\685772__milesfg__suburban-night-distant-traffic-no-bugs-ext-ambience-austin		11412576
+
